@@ -11,6 +11,7 @@ public class JUnitTest
     {
         //här skapas ett object av klassen mycounter som har 6 rader och 20 characters.
         MyCounter newCounter = new MyCounter(6,20);
+
         //tilldellar min interna varaiabel newChar med värdet från fältet character från objektet newCounter.
         int newChar = newCounter.getCharacters();
 
@@ -37,9 +38,11 @@ public class JUnitTest
     public void thirdTestCase()
     {
         MyCounter newCounter = new MyCounter();
-        //skillnaden är att vi kör metoden Counter för att se om increment fungerar i metoden för rad.
+
+        //skillnaden är att vi nu kör metoden Counter för att se om increment fungerar i metoden för rad.
         newCounter.counter("Hey");
         newCounter.counter("Dude");
+
         int newRows = newCounter.getRows();
         int actual = newRows;
         int expected = 2;
