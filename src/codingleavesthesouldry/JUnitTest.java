@@ -36,12 +36,13 @@ public class JUnitTest
     @Test
     public void thirdTestCase()
     {
-        MyCounter newCounter = new MyCounter(6,20);
+        MyCounter newCounter = new MyCounter();
         //skillnaden är att vi kör metoden Counter för att se om increment fungerar i metoden för rad.
-        newCounter.counter("hej");
-        int newRader = newCounter.getRows();
-        int actual = newRader;
-        int expected = 7;
+        newCounter.counter("Hey");
+        newCounter.counter("Dude");
+        int newRows = newCounter.getRows();
+        int actual = newRows;
+        int expected = 2;
 
         assertEquals(expected, actual);
     }
