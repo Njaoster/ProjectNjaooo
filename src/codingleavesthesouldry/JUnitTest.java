@@ -27,8 +27,8 @@ public class JUnitTest
     {
         MyCounter newCounter = new MyCounter(6,20);
 
-        int newRow = newCounter.getRows();
-        int actual = newRow;
+        int newRows = newCounter.getRows();
+        int actual = newRows;
         int expected = 6;
 
         assertEquals(expected, actual);
