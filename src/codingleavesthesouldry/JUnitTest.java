@@ -12,7 +12,7 @@ public class JUnitTest
         //här skapas ett object av klassen mycounter som har 6 rader och 20 characters.
         MyCounter newCounter = new MyCounter(6,20);
 
-        //tilldellar min interna varaiabel newChar med värdet från fältet character från objektet newCounter.
+        //tilldelar min interna varaiabel newChar med värdet från fältet character från objektet newCounter.
         int newChar = newCounter.getCharacters();
 
         int actual = newChar;
