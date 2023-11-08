@@ -9,6 +9,18 @@ public class IfElse {
         //massor av if if else.
         //först använder vi scanner för att få input från user sen sout för att få user ska skriva.
         //sen en massa else ifs för att se vart man hamnar på skalan.
+        /*
+        This is a template for how to do multiple java else if statements in java:
+        if() {
+
+        } else if () {
+
+        }  else if () {
+
+        } else {
+
+        }
+         */
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a grade:");
 
